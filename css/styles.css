@@ -4544,7 +4544,6 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   padding: 0.75rem 1rem;
-  margin-bottom: 1rem;
   list-style: none;
   background-color: #e9ecef;
   border-radius: 0.25rem;
@@ -11330,40 +11329,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 2px;
   background: #e7ab3c;
   content: "";
-}
-.leave-comment-galley {
-  padding-top: 0.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.leave-comment-galley h4 {
-  color: #292f3b;
-  font-weight: 700;
-  margin-bottom: 35px;
-}
-
-.leave-comment-galley .comment-form input {
-  width: 100%;
-  font-size: 16px;
-  color: #636363;
-  height: 50px;
-  border: 1px solid #ebebeb;
-  border-radius: 5px;
-  padding-left: 20px;
-  margin-bottom: 30px;
-  font-weight: 700;
-}
-
-.leave-comment-galley .comment-form textarea {
-  width: 100%;
-  resize: none;
-  font-size: 16px;
-  color: #636363;
-  height: 116px;
-  border: 1px solid #ebebeb;
-  border-radius: 5px;
-  padding-left: 20px;
-  padding-top: 10px;
-  margin-bottom: 45px;
-  font-weight: 700;
 }

@@ -21,10 +21,10 @@
   height: auto;
 }
 .visible-sm-block{
-  display: block;!important;
+  display: block!important;
 }
 visible-md-block{
-  display: block;!important;
+  display: block !important;
 }
 .hover,.hover .overlay{
   width: 100%;
@@ -263,4 +263,66 @@ visible-md-block{
     height: 150%;
     opacity: 0;
   }
+}
+
+.comment-section {
+  margin:  0 auto;
+  max-width: 50rem;
+  transform: translateY(-5rem);
+  padding-bottom:  0 !important;
+}
+.send-btn {
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgb(172, 11, 11);
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+.comment-form button[type = submit]:hover {
+  transform: scale(0.9) ; 
+  opacity: 0.8;
+}
+
+.galley-section { 
+  padding-bottom: 10rem;
+}
+
+
+.leave-comment-galley {
+  padding-top: 0.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.leave-comment-galley h4 {
+  color: #292f3b;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.leave-comment-galley .comment-form input {
+  width: 100%;
+  font-size: 16px;
+  color: #636363;
+  height: 50px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.leave-comment-galley .comment-form textarea {
+  width: 100%;
+  resize: none;
+  font-size: 16px;
+  color: #636363;
+  height: 116px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 45px;
+  font-weight: 700;
 }
